@@ -30,7 +30,7 @@ python3 --version          # 3.9+ — идёт с Xcode
 
 ### Шаг 3. Склонировать и запустить — одна команда
 ```bash
-git clone https://github.com/<ТВОЙ_ЛОГИН>/Ghost.git && cd Ghost && bash run.sh
+git clone https://github.com/verf1CT/Ghost.git && cd Ghost && bash run.sh
 ```
 Что делает `run.sh` сам:
 - создаёт виртуальное окружение `.venv` и ставит в него `pymobiledevice3`;
