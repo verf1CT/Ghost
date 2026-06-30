@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+route*.gpx
+_history_dump/
+_wtest.txt
