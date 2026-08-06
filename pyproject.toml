@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghostgps"
+version = "1.0.0"
+description = "iPhone geo-spoofing controlled from the phone over Wi-Fi"
+authors = [
+    {name = "Mikhail Meshkoy", email = "mishameshkoy@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pymobiledevice3>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/verf1CT/Ghost"

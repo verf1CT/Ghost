@@ -12,9 +12,9 @@ fi
 # shellcheck disable=SC1091
 source .venv/bin/activate
 
-echo "==> Ставлю зависимости (pymobiledevice3)…"
+echo "==> Устанавливаю пакет и зависимости…"
 pip install -q --upgrade pip >/dev/null
-pip install -q -U pymobiledevice3
+pip install -q -e .
 
 # iOS 17+ требует туннель от root (RemoteServiceDiscovery через tunneld).
 echo "==> Поднимаю туннель к iPhone (нужен пароль Mac для sudo)…"
